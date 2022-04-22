@@ -39,7 +39,7 @@ def checkHorizontal(board):
         return True
     
     
-def checkROw(board):
+def checkRow(board):
     global winner
     if board[0] == board[3] == board[6] and board [0] !="_":
           winner = board[0]
